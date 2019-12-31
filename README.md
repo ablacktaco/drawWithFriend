@@ -11,19 +11,17 @@
 ```swift
 "result": [{
   name: String,
-  paths: [
-    {
-      color: {
-        red: Int,
-        green: Int,
-        blue: Int
-      },
-      width: Int,
-      path: [{
-        x: Int,
-        y: Int
-      }]
-    }
-  ]
+  paths: [{
+    color: {
+      red: Int,
+      green: Int,
+      blue: Int
+    },
+    width: Int,
+    path: [{
+      x: Int,
+      y: Int
+    }]
+  }]
 }]
 ```
